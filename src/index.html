@@ -8,42 +8,44 @@
   </head>
   <body>
     <nav>
-      <a href=""
-        ><img src="img/eikonica-nav-logo.webp" alt="eikonica-nav-logo"
-      /></a>
-      <p>eikonica</p>
-      <p>programme</p>
-      <p>conférence</p>
-      <p>atelier</p>
-      <p>food truck</p>
-      <p>projection</p>
-      <p>club</p>
-      <p>infos pratiques</p>
-      <p>contact</p>
-      <div>
-        <p>FR</p>
-        <p>DE</p>
+      <div class="container">
+        <div class="row">
+          <a href=""
+            ><img
+              class="col-2"
+              src="img/eikonica-nav-logo.webp"
+              alt="eikonica-nav-logo"
+          /></a>
+        </div>
+        <div class="row">
+          <a class="col-1" href="#eikonica">eikonica</a>
+          <a class="col-1" href="#programme">programme</a>
+          <a class="col-1" href="#expositions">expositions</a>
+          <a class="col-1" href="#atelier">atelier</a>
+          <a class="col-1" href="#foodtruck">food truck</a>
+          <a class="col-1" href="#projection">projection</a>
+          <a class="col-1" href="#club">club</a>
+          <a class="col-1" href="#infospratiques">infos pratiques</a>
+          <a class="col-1" href="#contact">contact</a>
+          <a class="col-1" href="#partners">partenaires</a>
+          <div></div>
+          <p>FR</p>
+          <p>DE</p>
+        </div>
       </div>
     </nav>
-
-    <div class="container">
-      <div class="row">
-        <div class="col">colonne 1</div>
-        <div class="col">colonne 2</div>
-      </div>
-    </div>
 
     <header>
       <div class="container header-intro-title">
         <div class="row">
-          <h1 class="col">Festival des Arts Numériques</h1>
+          <h1 class="col-8">Festival des Arts Numériques</h1>
           <p class="col">13-15.Oct, 2023</p>
         </div>
       </div>
       <div class="container header-intro-text">
         <div class="row">
           <p class="col-7">
-            Célébrez et explorez les activités, les food trucks, les projections
+            Célébrez et explorez les activités, les food trucks, une projection
             de films, les concerts et un tout nouveau monde à Eikon, Fribourg.
           </p>
           <img class="col-4 bird-cara" src="img/bird.gif" alt="bird" />
@@ -78,9 +80,14 @@
       </div>
     </header>
     <main>
-      <div class="container">
+      <div class="container main-intro-area">
         <div class="row">
-          <img class="col-5" src="img/eikonica-logo.webp" alt="logo" />
+          <img
+            id="eikonica"
+            class="col-5"
+            src="img/eikonica-logo.webp"
+            alt="logo"
+          />
         </div>
         <div class="row">
           <p class="col-7">
@@ -90,14 +97,16 @@
           </p>
         </div>
       </div>
-      <div class="container">
+      <div class="container eikonica-univers">
         <div class="row">
-          <video id="background-video" autoplay loop muted>
-            <source class="" src="img/water.mp4" type="video/mp4" />
+          <video class="col-10" id="background-video" autoplay loop muted>
+            <source src="img/water.mp4" type="video/mp4" />
           </video>
         </div>
         <div class="row">
-          <p>image</p>
+          <img class="col-5" src="img/Selfie.gif" alt="selfie-with-cara" />
+        </div>
+        <div class="row">
           <p class="col-5">
             Nos mascottes sont disséminées un peu partout. Elles se déplacent et
             c'est à vous d'en trouver le nombre. Elles sont dans les toilettes,
@@ -105,7 +114,15 @@
             Ils sont facilement reconnaissables car ils ont tous le même style
             de dessin et ont été créés sur le même thème.
           </p>
-          <p>image</p>
+        </div>
+        <div class="row">
+          <img
+            class="col-5"
+            src="img/wall-projection.gif"
+            alt="ocean-on-wall"
+          />
+        </div>
+        <div class="row">
           <p class="col-5">
             Promenez-vous et profitez de la vue magnifique sur l'océan, l'eau et
             les fonds marins. Vous pouvez prendre des photos et profiter du son
@@ -123,9 +140,9 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container programme-area">
         <div class="row">
-          <h2>Programme</h2>
+          <h2 id="programme" class="col-4">Programme</h2>
         </div>
         <div class="row">
           <p class="col-2">vendredi</p>
@@ -140,16 +157,17 @@
           <img class="col-2 cut-cara" src="img/Cutboard.gif" alt="cutboard" />
         </div>
       </div>
-      <div class="container">
+
+      <div class="container expositions-area">
         <div class="row">
-          <h2>Conférence</h2>
+          <h2 id="expositions">Expositions</h2>
         </div>
         <div class="row">
           <p class="col-6">Les tendances actuelles</p>
           <img
             class="col-3"
             src="img/tendancesActuelles.webp"
-            alt="conference01"
+            alt="exposition01"
           />
         </div>
         <div class="row">
@@ -157,46 +175,50 @@
           <img
             class="col-3"
             src="img/industrieCreative.webp"
-            alt="conference02"
+            alt="exposition02"
           />
         </div>
         <div class="row">
           <p class="col-6">L'avenir de l'art numérique</p>
-          <img class="col-3" src="img/future.webp" alt="conference03" />
+          <img class="col-3" src="img/future.webp" alt="exposition03" />
         </div>
       </div>
 
-      <div class="container">
+      <div class="container atelier-area">
         <div class="row">
-          <h2>Atelier</h2>
+          <h2 id="atelier">Atelier</h2>
         </div>
         <div class="row">
-          <div class="col-6">
+          <div class="col-5">
             <img src="img/vr-guy.webp" alt="vr-atelier" />
-            <p>Initiation à la realité virtuelle pour les retraités</p>
+            <p class="article-title">
+              Initiation à la realité virtuelle pour les retraités
+            </p>
             <p>Apprendre comment utiliser un casque de réalié virtuelle.</p>
             <p>Salle 102</p>
           </div>
-          <div class="col-6">
+          <div class="col-5 offset-1">
             <img src="img/pixel-art-kids.webp" alt="pixel-art-atelier" />
-            <p>Pixel Art pour les enfants(7 à 12 ans)</p>
+            <p class="article-title">Pixel Art pour les enfants(7 à 12 ans)</p>
             <p>Créer des images pixelisées avec des logiciels différents.</p>
             <p>Salle 103</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-6">
+          <div class="col-5">
             <img src="img/child-computer.webp" alt="GIF-atelier" />
-            <p>Création d’un GIF animé pour les enfants</p>
+            <p class="article-title">
+              Création d’un GIF animé pour les enfants
+            </p>
             <p>
               Un artiste local enseigne à expérimenter avec des techniques
               simples.
             </p>
             <p>Salle 103</p>
           </div>
-          <div class="col-6">
+          <div class="col-5 offset-1">
             <img src="img/digital-world.webp" alt="compuer-work-atelier" />
-            <p>Création d’une œuvre interactive</p>
+            <p class="article-title">Création d’une œuvre interactive</p>
             <p>
               Un spécialiste vous guide dans la programmation et la conception.
             </p>
@@ -204,17 +226,21 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-6">
+          <div class="col-5">
             <img src="img/technical-work.webp" alt="electronic-atelier" />
-            <p>CFabrication de circuits électronique pour les retraités</p>
+            <p class="article-title">
+              Fabrication de circuits électronique pour les retraités
+            </p>
             <p>
               Nicolas Nahornjy, enseignant à eikon, vous fait découvrir la base.
             </p>
             <p>Salle 103</p>
           </div>
-          <div class="col-6">
+          <div class="col-5 offset-1">
             <img src="img/coding.webp" alt="coding-atelier" />
-            <p>Introduction à la programmation pour les enfants</p>
+            <p class="article-title">
+              Introduction à la programmation pour les enfants
+            </p>
             <p>
               Les apprentis d'eikon montrent comment créer ses propres jeux
               vidéo.
@@ -224,9 +250,9 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container ft-area">
         <div class="row">
-          <h2>Food trucks</h2>
+          <h2 id="foodtruck">Food trucks</h2>
         </div>
         <div class="row">
           <div class="col-4">
@@ -247,9 +273,9 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container movie-area">
         <div class="row">
-          <h2>Projection</h2>
+          <h2 id="projection">Projection</h2>
         </div>
         <div class="row">
           <img class="col-4" src="img/movie-poster.webp" alt="movie-poster" />
@@ -274,9 +300,9 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container club-area">
         <div class="row">
-          <h2>Club Fri-son</h2>
+          <h2 id="club">Club Fri-son</h2>
         </div>
         <div class="row">
           <div class="col-5">
@@ -296,9 +322,9 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container info-area">
         <div class="row">
-          <h2>Infos Pratiques</h2>
+          <h2 id="infospratiques">Infos Pratiques</h2>
         </div>
         <div class="row">
           <div class="col-7">
@@ -314,22 +340,28 @@
         </div>
         <div class="row">
           <h2>Reservation</h2>
-          <a class="col-2 offset-5" href="">reserver</a>
+          <img class="col-2" src="img/labaArBla.gif" alt="ponting-right" />
+          <a class="col-2 offset-3" href="">reserver</a>
+          <img
+            class="col-2 offset-3"
+            src="img/labaAroBlaLeft.gif"
+            alt="pointing-left"
+          />
         </div>
         <div class="row">
-          <h2>Contact</h2>
+          <h2 id="contact">Contact</h2>
         </div>
         <div class="row">
           <div>
             <a href="">+41 26 305 46 86</a>
             <a href="">eikon@edufr.ch</a>
           </div>
-          <img class="col-5 deer-cara" src="img/deeon.gif" alt="deeon" />
+          <img class="deer-cara" src="img/deeon.gif" alt="deeon" />
         </div>
       </div>
     </main>
     <footer>
-      <div class="container">
+      <div class="container sm-area">
         <div class="row">
           <a class="col-2" href="https://www.linkedin.com/">
             <img src="img/linkedin.webp" alt="linkedin-logo" />
@@ -342,7 +374,7 @@
           </a>
         </div>
       </div>
-      <div class="container">
+      <div id="partners" class="container partner-area">
         <div class="row">
           <img class="col-2 offset-2" src="img/eikon.webp" alt="eikon-logo" />
           <img class="col-2" src="img/fri-son.webp" alt="frison-logo" />
@@ -350,7 +382,7 @@
           <img class="col-2" src="img/loterie_romande.webp" alt="lr-logo" />
         </div>
       </div>
-      <div class="container">
+      <div class="container last-area">
         <div class="row">
           <a class="offset-5" href="">mentions légales</a>
         </div>
