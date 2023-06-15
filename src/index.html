@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
+    <style>
+      .link {
+        display: block;
+      }
+    </style>
+
     <nav>
       <div class="container">
         <div class="row">
@@ -17,21 +23,22 @@
               alt="eikonica-nav-logo"
           /></a>
         </div>
-        <div class="row">
-          <a class="col-1" href="#eikonica">eikonica</a>
-          <a class="col-1" href="#programme">programme</a>
-          <a class="col-1" href="#expositions">expositions</a>
-          <a class="col-1" href="#atelier">atelier</a>
-          <a class="col-1" href="#foodtruck">food truck</a>
-          <a class="col-1" href="#projection">projection</a>
-          <a class="col-1" href="#club">club</a>
-          <a class="col-1" href="#infospratiques">infos pratiques</a>
-          <a class="col-1" href="#contact">contact</a>
-          <a class="col-1" href="#partners">partenaires</a>
-          <div></div>
-          <p>FR</p>
-          <p>DE</p>
-        </div>
+      </div>
+      <div>
+        <a class="link" href="#eikonica">eikonica</a>
+        <a class="link" href="#programme">programme</a>
+        <a class="link" href="#expositions">expositions</a>
+        <a class="link" href="#atelier">atelier</a>
+        <a class="link" href="#foodtruck">food truck</a>
+        <a class="link" href="#projection">projection</a>
+        <a class="link" href="#club">club</a>
+        <a class="link" href="#infospratiques">infos pratiques</a>
+        <a class="link" href="#contact">contact</a>
+        <a class="link" href="#partners">partenaires</a>
+      </div>
+      <div>
+        <a>FR</a>
+        <a>DE</a>
       </div>
     </nav>
 
@@ -39,7 +46,7 @@
       <div class="container header-intro-title">
         <div class="row">
           <h1 class="col-8">Festival des Arts Numériques</h1>
-          <p class="col">13-15.Oct, 2023</p>
+          <p class="col-4">13-15.Oct, 2023</p>
         </div>
       </div>
       <div class="container header-intro-text">
@@ -48,12 +55,12 @@
             Célébrez et explorez les activités, les food trucks, une projection
             de films, les concerts et un tout nouveau monde à Eikon, Fribourg.
           </p>
-          <img class="col-4 bird-cara" src="img/bird.gif" alt="bird" />
+          <img class="col-4 offset-1 bird-cara" src="img/bird.gif" alt="bird" />
         </div>
       </div>
       <div class="container header-middle">
         <div class="row">
-          <p class="col-4">C'est quoi l'eikon?</p>
+          <p class="col-5">C'est quoi l'eikon?</p>
         </div>
       </div>
       <div class="container header-end">
@@ -104,31 +111,26 @@
           </video>
         </div>
         <div class="row">
-          <img class="col-5" src="img/Selfie.gif" alt="selfie-with-cara" />
+          <div class="col-5">
+            <img src="img/Selfie.gif" alt="selfie-with-cara" />
+            <p>
+              Nos mascottes sont disséminées un peu partout. Elles se déplacent
+              et c'est à vous d'en trouver le nombre. Elles sont dans les
+              toilettes, dans le hall d'entrée, dans les couloirs et aussi sur
+              les plafonds. Ils sont facilement reconnaissables car ils ont tous
+              le même style de dessin et ont été créés sur le même thème.
+            </p>
+          </div>
+          <div class="col-5">
+            <img class="" src="img/wall-projection.gif" alt="ocean-on-wall" />
+            <p>
+              Promenez-vous et profitez de la vue magnifique sur l'océan, l'eau
+              et les fonds marins. Vous pouvez prendre des photos et profiter du
+              son et de la vidéo.
+            </p>
+          </div>
         </div>
-        <div class="row">
-          <p class="col-5">
-            Nos mascottes sont disséminées un peu partout. Elles se déplacent et
-            c'est à vous d'en trouver le nombre. Elles sont dans les toilettes,
-            dans le hall d'entrée, dans les couloirs et aussi sur les plafonds.
-            Ils sont facilement reconnaissables car ils ont tous le même style
-            de dessin et ont été créés sur le même thème.
-          </p>
-        </div>
-        <div class="row">
-          <img
-            class="col-5"
-            src="img/wall-projection.gif"
-            alt="ocean-on-wall"
-          />
-        </div>
-        <div class="row">
-          <p class="col-5">
-            Promenez-vous et profitez de la vue magnifique sur l'océan, l'eau et
-            les fonds marins. Vous pouvez prendre des photos et profiter du son
-            et de la vidéo.
-          </p>
-        </div>
+
         <div class="row">
           <img class="col-4" src="img/kids-drawing.webp" alt="kids-drawing" />
           <p class="col-5">
@@ -160,7 +162,7 @@
 
       <div class="container expositions-area">
         <div class="row">
-          <h2 id="expositions">Expositions</h2>
+          <h2 id="expositions" class="col-4">Expositions</h2>
         </div>
         <div class="row">
           <p class="col-6">Les tendances actuelles</p>
@@ -186,20 +188,20 @@
 
       <div class="container atelier-area">
         <div class="row">
-          <h2 id="atelier">Atelier</h2>
+          <h2 id="atelier" class="col-3">Atelier</h2>
         </div>
         <div class="row">
           <div class="col-5">
             <img src="img/vr-guy.webp" alt="vr-atelier" />
-            <p class="article-title">
+            <h3 class="article-title">
               Initiation à la realité virtuelle pour les retraités
-            </p>
+            </h3>
             <p>Apprendre comment utiliser un casque de réalié virtuelle.</p>
             <p>Salle 102</p>
           </div>
           <div class="col-5 offset-1">
             <img src="img/pixel-art-kids.webp" alt="pixel-art-atelier" />
-            <p class="article-title">Pixel Art pour les enfants(7 à 12 ans)</p>
+            <h3>Pixel Art pour les enfants(7 à 12 ans)</h3>
             <p>Créer des images pixelisées avec des logiciels différents.</p>
             <p>Salle 103</p>
           </div>
@@ -207,9 +209,7 @@
         <div class="row">
           <div class="col-5">
             <img src="img/child-computer.webp" alt="GIF-atelier" />
-            <p class="article-title">
-              Création d’un GIF animé pour les enfants
-            </p>
+            <h3>Création d’un GIF animé pour les enfants</h3>
             <p>
               Un artiste local enseigne à expérimenter avec des techniques
               simples.
@@ -218,7 +218,7 @@
           </div>
           <div class="col-5 offset-1">
             <img src="img/digital-world.webp" alt="compuer-work-atelier" />
-            <p class="article-title">Création d’une œuvre interactive</p>
+            <h3>Création d’une œuvre interactive</h3>
             <p>
               Un spécialiste vous guide dans la programmation et la conception.
             </p>
@@ -228,9 +228,7 @@
         <div class="row">
           <div class="col-5">
             <img src="img/technical-work.webp" alt="electronic-atelier" />
-            <p class="article-title">
-              Fabrication de circuits électronique pour les retraités
-            </p>
+            <h3>Fabrication de circuits électronique pour les retraités</h3>
             <p>
               Nicolas Nahornjy, enseignant à eikon, vous fait découvrir la base.
             </p>
@@ -238,9 +236,7 @@
           </div>
           <div class="col-5 offset-1">
             <img src="img/coding.webp" alt="coding-atelier" />
-            <p class="article-title">
-              Introduction à la programmation pour les enfants
-            </p>
+            <h3>Introduction à la programmation pour les enfants</h3>
             <p>
               Les apprentis d'eikon montrent comment créer ses propres jeux
               vidéo.
@@ -252,7 +248,7 @@
 
       <div class="container ft-area">
         <div class="row">
-          <h2 id="foodtruck">Food trucks</h2>
+          <h2 id="foodtruck" class="col-4">Food Trucks</h2>
         </div>
         <div class="row">
           <div class="col-4">
@@ -275,11 +271,17 @@
 
       <div class="container movie-area">
         <div class="row">
-          <h2 id="projection">Projection</h2>
+          <h2 id="projection" class="col-4">Projection</h2>
         </div>
         <div class="row">
-          <img class="col-4" src="img/movie-poster.webp" alt="movie-poster" />
-          <div class="col-5">
+          <div class="col-4">
+            <img
+              class="movieposter"
+              src="img/movie-poster.webp"
+              alt="movie-poster"
+            />
+          </div>
+          <div class="col-4">
             <h3>Le rêve de Luna</h3>
             <p>
               Une animation de Thomas Desmet qui raconte une histoire d'une
@@ -302,19 +304,25 @@
 
       <div class="container club-area">
         <div class="row">
-          <h2 id="club">Club Fri-son</h2>
+          <h2 id="club" class="col-5">Club Fri-son</h2>
         </div>
         <div class="row">
           <div class="col-5">
-            <img src="img/kinetic-flow-poster.webp" alt="club01" />
-            <p>Kinetic Flow</p>
-            <p>Vendredi à 20h</p>
-            <img src="img/neon-pulse-poster.webp" alt="club02" />
-            <p>Neon Pulse</p>
-            <p>Samedi à 20h</p>
-            <img src="img/minjae-park-poster.webp" alt="club03" />
-            <p>Min-Jae Park</p>
-            <p>Dimanche à 17h</p>
+            <div>
+              <img src="img/kinetic-flow-poster.webp" alt="club01" />
+              <h3>Kinetic Flow</h3>
+              <p>Vendredi à 20h</p>
+            </div>
+            <div>
+              <img src="img/neon-pulse-poster.webp" alt="club02" />
+              <h3>Neon Pulse</h3>
+              <p>Samedi à 20h</p>
+            </div>
+            <div>
+              <img src="img/minjae-park-poster.webp" alt="club03" />
+              <h3>Min-Jae Park</h3>
+              <p>Dimanche à 17h</p>
+            </div>
           </div>
           <div class="col-4 offset-2">
             <img class="turtle-cara" src="img/karver.gif" alt="karver" />
@@ -324,13 +332,19 @@
 
       <div class="container info-area">
         <div class="row">
-          <h2 id="infospratiques">Infos Pratiques</h2>
+          <h2 id="infospratiques" class="col-6">Infos Pratiques</h2>
         </div>
         <div class="row">
           <div class="col-7">
             <p>Lieux</p>
-            <p>Rte de Wilhelm Kaiser 13, 1700 Fribourg</p>
-            <p>Rte de Fonderie 13, 1700 Fribourg</p>
+            <a
+              href="https://www.google.com/maps/place/Rte+Wilhelm-Kaiser+13,+1700+Fribourg/@46.7946081,7.1534884,17"
+              >Rte de Wilhelm Kaiser 13, 1700 Fribourg</a
+            >
+            <a
+              href="https://www.google.com/maps/place/Pass.+du+Cardinal+1,+1700+Fribourg/@46.7974365,7.1453457,17z"
+              >Rte de Fonderie 13, 1700 Fribourg</a
+            >
             <p>Prix</p>
             <p>toutes est gratuit</p>
             <p>Cocerts</p>
@@ -339,7 +353,9 @@
           </div>
         </div>
         <div class="row">
-          <h2>Reservation</h2>
+          <h2 class="col-5">Reservation</h2>
+        </div>
+        <div class="row">
           <img class="col-2" src="img/labaArBla.gif" alt="ponting-right" />
           <a class="col-2 offset-3" href="">reserver</a>
           <img
@@ -349,13 +365,11 @@
           />
         </div>
         <div class="row">
-          <h2 id="contact">Contact</h2>
+          <h2 id="contact" class="col-4">Contact</h2>
         </div>
         <div class="row">
-          <div>
-            <a href="">+41 26 305 46 86</a>
-            <a href="">eikon@edufr.ch</a>
-          </div>
+          <a href="tel: +41263054686">+41 26 305 46 86</a>
+          <a href="mailto: eikon@edufr.ch">eikon@edufr.ch</a>
           <img class="deer-cara" src="img/deeon.gif" alt="deeon" />
         </div>
       </div>
@@ -376,10 +390,18 @@
       </div>
       <div id="partners" class="container partner-area">
         <div class="row">
-          <img class="col-2 offset-2" src="img/eikon.webp" alt="eikon-logo" />
-          <img class="col-2" src="img/fri-son.webp" alt="frison-logo" />
-          <img class="col-2" src="img/etat_de_fribourg.webp" alt="edfb-logo" />
-          <img class="col-2" src="img/loterie_romande.webp" alt="lr-logo" />
+          <a class="col-2 offset-2 link" href="https://eikon.ch/">
+            <img src="img/eikon.webp" alt="eikon-logo" />
+          </a>
+          <a class="col-2 link" href="https://fri-son.ch/fr">
+            <img src="img/fri-son.webp" alt="frison-logo" />
+          </a>
+          <a class="col-2 link" href="https://www.fr.ch/">
+            <img src="img/etat_de_fribourg.webp" alt="edfb-logo" />
+          </a>
+          <a class="col-2 link" href="https://www.loro.ch/fr">
+            <img src="img/loterie_romande.webp" alt="lr-logo" />
+          </a>
         </div>
       </div>
       <div class="container last-area">
