@@ -2,3 +2,28 @@ nav a {
   color: white;
   font-size: 14px;
 }
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  text-align: center;
+}
+
+.everything-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middle-elements {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
