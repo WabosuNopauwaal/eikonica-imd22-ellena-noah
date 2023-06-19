@@ -1,7 +1,6 @@
 @import "base";
 @import "layout";
 @import "bootstrap/scss/bootstrap-grid";
-@import "modules/example";
 @import "modules/nav";
 @import "modules/header-intro-title";
 @import "modules/header-intro-text";
@@ -12,10 +11,11 @@
 @import "modules/programme";
 @import "modules/expositions-area";
 @import "modules/atelier-area";
-@import "modules/ft-area";
+@import "modules/food-truck-area";
 @import "modules/movie-area";
 @import "modules/club-area";
 @import "modules/info-area";
 @import "modules/sm-area";
 @import "modules/partner-area";
 @import "modules/last-area";
+@import "modules/button";

@@ -1,3 +1,40 @@
 nav {
   background-color: black;
 }
+
+.red-bg {
+  background-color: #ffadad;
+}
+
+.red-bg:hover {
+  background-color: #ffcfcf;
+}
+
+.blue-bg {
+  background-color: #adfcff;
+}
+
+.blue-bg:hover {
+  background-color: #c9fdff;
+}
+
+.green-bg {
+  background-color: #b5ffad;
+}
+
+.green-bg:hover {
+  background-color: #cbffc5;
+}
+
+.eikonica-colour {
+  color: #0d6fb8;
+}
+
+.reserver-bg {
+  background-color: #0d6fb8;
+  margin-bottom: 20px;
+}
+
+span:hover {
+  text-decoration: underline;
+}

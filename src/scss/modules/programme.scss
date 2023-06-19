@@ -1,9 +1,23 @@
-.programme-area p {
+.programme-area a {
   font-size: 37px;
   font-weight: 700;
+  text-align: center;
+  padding-top: 96px;
+}
+
+.programme-area a:hover {
+  color: white;
 }
 
 .programme-area img {
-  width: 180px;
+  width: 190px;
   height: 240px;
+}
+
+.programme-area h2 {
+  margin-bottom: 40px;
+}
+
+.programme-area {
+  margin-bottom: 40px;
 }

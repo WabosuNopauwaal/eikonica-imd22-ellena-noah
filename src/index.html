@@ -35,8 +35,8 @@
           <a class="link" href="#contact">contact</a>
           <a class="link" href="#partners">partenaires</a>
         </div>
-        <div class="right-nav">
-          <a>FR</a>
+        <div class="right-nav col-1">
+          <a class="right-element-nav">FR</a>
           <a>DE</a>
         </div>
       </div>
@@ -53,14 +53,20 @@
         <div class="row">
           <p class="col-7">
             Célébrez et explorez les activités, les food trucks, une projection
-            de films, les concerts et un tout nouveau monde à Eikon, Fribourg.
+            de films, les concerts et un tout nouveau monde à
+            <span class="eikonica-colour" ref="#eikon-tv">Eikon</span>,
+            Fribourg.
           </p>
           <img class="col-4 offset-1 bird-cara" src="img/bird.gif" alt="bird" />
         </div>
       </div>
       <div class="container header-middle">
         <div class="row">
-          <p class="col-5">C'est quoi l'eikon?</p>
+          <p class="col-5">
+            C'est quoi l'<span class="eikonica-colour" ref="#eikon-tv"
+              >eikon</span
+            >?
+          </p>
         </div>
       </div>
       <div class="container header-end">
@@ -73,6 +79,7 @@
           <div class="col-4 offset-2">
             <a href="https://eikon.ch/">
               <img
+                id="eikon-tv"
                 class="eikon-tv-cara"
                 src="img/eikon-tv.gif"
                 alt="eikontelevision"
@@ -106,13 +113,19 @@
       </div>
       <div class="container eikonica-univers">
         <div class="row">
-          <video class="col-10" id="background-video" autoplay loop muted>
+          <video
+            class="col-10 water-video"
+            id="background-video"
+            autoplay
+            loop
+            muted
+          >
             <source src="img/water.mp4" type="video/mp4" />
           </video>
         </div>
         <div class="row">
-          <div class="col-5">
-            <img src="img/Selfie.gif" alt="selfie-with-cara" />
+          <div class="col-5 selfie">
+            <img class="" src="img/Selfie.gif" alt="selfie-with-cara" />
             <p>
               Nos mascottes sont disséminées un peu partout. Elles se déplacent
               et c'est à vous d'en trouver le nombre. Elles sont dans les
@@ -121,7 +134,7 @@
               le même style de dessin et ont été créés sur le même thème.
             </p>
           </div>
-          <div class="col-5">
+          <div class="col-5 ocean-wall">
             <img class="" src="img/wall-projection.gif" alt="ocean-on-wall" />
             <p>
               Promenez-vous et profitez de la vue magnifique sur l'océan, l'eau
@@ -131,7 +144,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row kids-drawing">
           <img class="col-4" src="img/kids-drawing.webp" alt="kids-drawing" />
           <p class="col-5">
             Sans compter qu'il y a des murs sur lesquels tout le monde peut
@@ -147,15 +160,15 @@
           <h2 id="programme" class="col-4">Programme</h2>
         </div>
         <div class="row">
-          <p class="col-2">vendredi</p>
+          <a class="col-2 link red-bg" href="">vendredi</a>
           <img class="col-2 horn-cara" src="img/Horn.gif" alt="horn" />
-          <p class="col-2">samedi</p>
+          <a class="col-2 link blue-bg" href="">samedi</a>
           <img
             class="col-2 camera-cara"
             src="img/oldcinemacamera.gif"
             alt="oldcinemacamera"
           />
-          <p class="col-2">dimanche</p>
+          <a class="col-2 link green-bg" href="">dimanche</a>
           <img class="col-2 cut-cara" src="img/Cutboard.gif" alt="cutboard" />
         </div>
       </div>
@@ -165,7 +178,7 @@
           <h2 id="expositions" class="col-4">Expositions</h2>
         </div>
         <div class="row">
-          <p class="col-6">Les tendances actuelles</p>
+          <a class="col-6 link red-bg">Les tendances actuelles</a>
           <img
             class="col-3"
             src="img/tendancesActuelles.webp"
@@ -173,7 +186,7 @@
           />
         </div>
         <div class="row">
-          <p class="col-6">La place dans l'industrie créative</p>
+          <a class="col-6 link blue-bg">La place dans l'industrie créative</a>
           <img
             class="col-3"
             src="img/industrieCreative.webp"
@@ -181,7 +194,7 @@
           />
         </div>
         <div class="row">
-          <p class="col-6">L'avenir de l'art numérique</p>
+          <a class="col-6 link green-bg">L'avenir de l'art numérique</a>
           <img class="col-3" src="img/future.webp" alt="exposition03" />
         </div>
       </div>
@@ -191,80 +204,80 @@
           <h2 id="atelier" class="col-3">Atelier</h2>
         </div>
         <div class="row">
-          <div class="col-5">
+          <div class="col-5 red-bg">
             <img src="img/vr-guy.webp" alt="vr-atelier" />
             <h3 class="article-title">
               Initiation à la realité virtuelle pour les retraités
             </h3>
             <p>Apprendre comment utiliser un casque de réalié virtuelle.</p>
-            <p>Salle 102</p>
+            <p class="room-text">Salle 102</p>
           </div>
-          <div class="col-5 offset-1">
+          <div class="col-5 offset-1 red-bg">
             <img src="img/pixel-art-kids.webp" alt="pixel-art-atelier" />
             <h3>Pixel Art pour les enfants(7 à 12 ans)</h3>
             <p>Créer des images pixelisées avec des logiciels différents.</p>
-            <p>Salle 103</p>
+            <p class="room-text">Salle 103</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-5">
+          <div class="col-5 blue-bg">
             <img src="img/child-computer.webp" alt="GIF-atelier" />
             <h3>Création d’un GIF animé pour les enfants</h3>
             <p>
               Un artiste local enseigne à expérimenter avec des techniques
               simples.
             </p>
-            <p>Salle 103</p>
+            <p class="room-text">Salle 103</p>
           </div>
-          <div class="col-5 offset-1">
+          <div class="col-5 offset-1 blue-bg">
             <img src="img/digital-world.webp" alt="compuer-work-atelier" />
             <h3>Création d’une œuvre interactive</h3>
-            <p>
+            <p class="atelier-special-text">
               Un spécialiste vous guide dans la programmation et la conception.
             </p>
-            <p>Salle 102</p>
+            <p class="room-text-special">Salle 102</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-5">
+          <div class="col-5 green-bg">
             <img src="img/technical-work.webp" alt="electronic-atelier" />
             <h3>Fabrication de circuits électronique pour les retraités</h3>
             <p>
               Nicolas Nahornjy, enseignant à eikon, vous fait découvrir la base.
             </p>
-            <p>Salle 103</p>
+            <p class="room-text">Salle 103</p>
           </div>
-          <div class="col-5 offset-1">
+          <div class="col-5 offset-1 green-bg">
             <img src="img/coding.webp" alt="coding-atelier" />
             <h3>Introduction à la programmation pour les enfants</h3>
             <p>
               Les apprentis d'eikon montrent comment créer ses propres jeux
               vidéo.
             </p>
-            <p>Salle 102</p>
+            <p class="room-text">Salle 102</p>
           </div>
         </div>
       </div>
 
-      <div class="container ft-area">
+      <div class="container food-truck-area">
         <div class="row">
           <h2 id="foodtruck" class="col-4">Food Trucks</h2>
         </div>
         <div class="row">
-          <div class="col-4">
-            <p>Le Truc à Manger</p>
-            <p>Les Gourmandises de Lisa</p>
-            <p>La Camioneta Sabrosa</p>
+          <div class="col-3 red-truck red-bg">
+            <a class="link">Le Truc à Manger</a>
+            <a class="link">Les Gourmandises de Lisa</a>
+            <a class="link">La Camioneta Sabrosa</a>
           </div>
-          <div class="col-4">
-            <p>Wok&Roll</p>
-            <p>Salsa Verde</p>
-            <p>Green Machine</p>
+          <div class="col-3 offset-1 blue-truck blue-bg">
+            <a class="link">Wok&Roll</a>
+            <a class="link">Salsa Verde</a>
+            <a class="link">Green Machine</a>
           </div>
-          <div class="col-4">
-            <p>Le Dzo'Burger</p>
-            <p>La Pizza Napolitana</p>
-            <p>Falafel&Co</p>
+          <div class="col-3 offset-1 green-truck green-bg">
+            <a class="link">Le Dzo'Burger</a>
+            <a class="link">La Pizza Napolitana</a>
+            <a class="link">Falafel&Co</a>
           </div>
         </div>
       </div>
@@ -293,6 +306,7 @@
               ses graphismes époustouflants et sa musique enchanteresse, le film
               peut être apprécié par tout le monde, quel que soit l'âge.
             </p>
+            <a href="" class="link movie-button">trailer</a>
           </div>
           <img
             class="col-3 tvsaurus-cara"
@@ -308,17 +322,17 @@
         </div>
         <div class="row">
           <div class="col-5">
-            <div>
+            <div class="red-bg artist-poster">
               <img src="img/kinetic-flow-poster.webp" alt="club01" />
               <h3>Kinetic Flow</h3>
               <p>Vendredi à 20h</p>
             </div>
-            <div>
+            <div class="blue-bg artist-poster">
               <img src="img/neon-pulse-poster.webp" alt="club02" />
               <h3>Neon Pulse</h3>
               <p>Samedi à 20h</p>
             </div>
-            <div>
+            <div class="green-bg">
               <img src="img/minjae-park-poster.webp" alt="club03" />
               <h3>Min-Jae Park</h3>
               <p>Dimanche à 17h</p>
@@ -338,59 +352,74 @@
           <div class="col-7">
             <h3>Lieux</h3>
             <a
+              class="link link-text"
               href="https://www.google.com/maps/place/Rte+Wilhelm-Kaiser+13,+1700+Fribourg/@46.7946081,7.1534884,17"
               >Rte de Wilhelm Kaiser 13, 1700 Fribourg</a
             >
             <a
+              class="link link-text"
               href="https://www.google.com/maps/place/Pass.+du+Cardinal+1,+1700+Fribourg/@46.7974365,7.1453457,17z"
               >Rte de Fonderie 13, 1700 Fribourg</a
             >
             <h3>Prix</h3>
-            <p>toutes est gratuit</p>
-            <p>Cocerts</p>
-            <p>vendredi 15.-</p>
-            <p>samedi 25.-</p>
+            <p>Toutes est gratuit</p>
+            <p><strong>Cocerts</strong></p>
+            <div class="row">
+              <p class="col-3">vendredi 15.-</p>
+              <p class="col-3">samedi 25.-</p>
+            </div>
+            <div class="club-button col-3">
+              <a href="https://fri-son.ch/fr">Billeterie</a>
+            </div>
           </div>
         </div>
+
         <div class="row">
           <h2 class="col-5">Reservation</h2>
         </div>
-        <div class="row">
-          <img class="col-2" src="img/labaArBla.gif" alt="ponting-right" />
-          <a class="col-2 offset-3" href="">reserver</a>
+        <div class="row reserver-bg">
+          <img
+            class="col-2"
+            src="img/labaAroWhiRight.gif"
+            alt="ponting-right"
+          />
+          <a class="col-2 offset-3 reserving-button" href="">reserver</a>
           <img
             class="col-2 offset-3"
-            src="img/labaAroBlaLeft.gif"
+            src="img/labaAroWhiLeft.gif"
             alt="pointing-left"
           />
         </div>
+
         <div class="row">
           <h2 id="contact" class="col-4">Contact</h2>
         </div>
-        <div class="row">
-          <a class="col-3 offset-5" href="tel: +41263054686"
+        <div class="row contact-text contact-text-area">
+          <a class="col-3 offset-5 link-text" href="tel: +41263054686"
             >+41 26 305 46 86</a
           >
         </div>
-        <div class="row">
-          <a class="col-3 offset-5" href="mailto: eikon@edufr.ch"
+        <div class="row contact-text">
+          <a class="col-3 offset-5 link-text" href="mailto: eikon@edufr.ch"
             >eikon@edufr.ch</a
           >
         </div>
-        <img class="deer-cara" src="img/deeon.gif" alt="deeon" />
+        <div class="phone-deer">
+          <img class="deer-cara" src="img/deeon.gif" alt="deeon" />
+        </div>
       </div>
     </main>
 
     <footer>
       <div class="container sm-area">
         <div class="row">
-          <a class="col-2" href="https://www.linkedin.com/">
+          <a class="col-1" href="https://www.linkedin.com/">
             <img src="img/linkedin.webp" alt="linkedin-logo" />
           </a>
-          <a class="col-2" href="https://www.instagram.com/">
+          <a class="col-1" href="https://www.instagram.com/">
             <img src="img/insta.webp" alt="instagram-logo" />
           </a>
-          <a class="col-2" href="https://www.facebook.com/">
+          <a class="col-1" href="https://www.facebook.com/">
             <img src="img/facebook.webp" alt="facebook-logo" />
           </a>
         </div>
