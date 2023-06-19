@@ -15,6 +15,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  white-space: nowrap;
 }
 
 .middle-elements {
@@ -31,4 +32,9 @@ nav {
 
 .right-element-nav {
   margin-right: 10px;
+}
+
+.element-left {
+  width: 212px;
+  height: 45px;
 }

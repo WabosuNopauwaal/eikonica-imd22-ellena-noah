@@ -10,10 +10,14 @@
 
 .club-button {
   background-color: #0d6fb8;
-  border-radius: 21px;
   color: white;
   text-align: center;
   padding: 19px 10px 19px 10px;
   margin-top: 10px;
   margin-bottom: 40px;
+}
+
+.club-button:hover {
+  text-decoration: underline;
+  background-color: #138be5;
 }
