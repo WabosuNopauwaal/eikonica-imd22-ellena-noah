@@ -1,14 +1,14 @@
-.reserving-button {
+.button-reserving {
   color: white;
   text-align: center;
   padding-top: 110px;
 }
-.reserving-button:hover {
+.button-reserving:hover {
   text-decoration: underline;
   color: white;
 }
 
-.club-button {
+.button-club {
   background-color: #0d6fb8;
   color: white;
   text-align: center;
@@ -17,7 +17,21 @@
   margin-bottom: 40px;
 }
 
-.club-button:hover {
+.button-club:hover {
+  text-decoration: underline;
+  background-color: #138be5;
+}
+
+.button-movie {
+  background-color: #0d6fb8;
+  color: white;
+  text-align: center;
+  padding: 19px 10px 19px 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.button-movie:hover {
   text-decoration: underline;
   background-color: #138be5;
 }
