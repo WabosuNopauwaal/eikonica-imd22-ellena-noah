@@ -13,16 +13,21 @@ nav {
 
 .everything-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   white-space: nowrap;
 }
 
 .middle-elements {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  gap: 15px;
-  margin-right: 20px;
+  grid-template-columns: repeat(11, 1fr);
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.element-left {
+  width: 212px;
+  height: 45px;
 }
 
 .right-nav {
@@ -32,9 +37,4 @@ nav {
 
 .right-element-nav {
   margin-right: 10px;
-}
-
-.element-left {
-  width: 212px;
-  height: 45px;
 }
