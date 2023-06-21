@@ -11,30 +11,30 @@ nav {
   padding: 35px 20px 30px 20px;
 }
 
-.everything-nav {
+.nav-everything {
   display: flex;
   justify-content: space-around;
   align-items: center;
   white-space: nowrap;
 }
 
-.middle-elements {
+.nav-middle-elements {
   display: grid;
   grid-template-columns: repeat(11, 1fr);
   gap: 10px;
   margin-right: 10px;
 }
 
-.element-left {
+.nav-element-left {
   width: 212px;
   height: 45px;
 }
 
-.right-nav {
+.nav-right {
   display: flex;
   flex-direction: row;
 }
 
-.right-element-nav {
+.nav-right-element {
   margin-right: 10px;
 }
